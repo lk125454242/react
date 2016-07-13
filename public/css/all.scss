@@ -1,0 +1,50 @@
+.hidden{
+  display: none;
+}
+//导航条
+.menu_nav{
+  //min-width: 1050px;
+  min-width: 900px;
+}
+//记住我
+.ant-checkbox-wrapper{
+  vertical-align: text-top;
+}
+// 登陆表单
+.ant-form-inline{
+  float: right;
+}
+//注册
+.register{
+  margin-left: 5px;
+}
+//搜索条
+.search{
+  width: 12em;
+  margin-top: 10px;
+}
+//标签页
+.ant-tabs-nav-scroll{
+  width: 100%;
+  height: 1.2rem
+}
+.ant-tabs-bar{
+  margin-bottom: 0;
+}
+// 列表
+.ant-collapse-item{
+  position: relative;
+}
+.cancelCollection{
+  position: absolute;
+  top: 4px;
+  right: 5px;
+  opacity: 1;
+  background-color: #d9534f;
+  color: white;
+}
+span,label,img{
+  -webkit-touch-callout: none; /*禁止拖动在新链接打开图片*/
+  -webkit-user-select: none; /*禁止选择文本*/
+  -webkit-user-drag: none; /*禁止用户拖拽*/
+}
